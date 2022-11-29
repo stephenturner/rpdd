@@ -1,0 +1,11 @@
+Package: rpdd
+Title: R package Docker Demo
+Version: 0.1.0
+Authors@R: 
+    c(person("Stephen", "Turner", , "first.last@example.com", role = c("aut", "cre")),
+      person("Serpent", "Hunter", , "first.last@example.com", role = c("aut")))
+Description: Demonstrates using an R package inside a Docker image.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1

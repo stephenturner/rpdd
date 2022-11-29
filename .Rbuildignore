@@ -1,0 +1,5 @@
+^rpdd\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+docker/
+build.sh
