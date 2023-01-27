@@ -7,8 +7,8 @@ pkg=$(sed -n 's/Package: //p' DESCRIPTION)
 ## build the R package
 R CMD build .
 
-## move the pkg tar to assets dir with version-less name
-mv ${pkg}_${v}.tar.gz docker/assets/${pkg}.tar.gz
+## move the pkg tar to src dir with version-less name
+mv ${pkg}_${v}.tar.gz docker/src/${pkg}.tar.gz
 
 ## build the image and tag with version *and* latest
 docker build -t ${pkg}:${v} -t ${pkg}:latest docker
