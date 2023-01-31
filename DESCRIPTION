@@ -2,15 +2,15 @@ Package: rpdd
 Title: R package Docker Demo
 Version: 0.1.0
 Authors@R: 
-    c(person(given = "VP",
-             family = "Nagraj",
-             role = c("aut"),
-             comment = c(ORCID = "0000-0003-0060-566X")),
-      person(given = "Stephen",
+    c(person(given = "Stephen",
              family = "Turner",
              role = c("aut","cre"),
              email = "vustephen@gmail.com",
-             comment = c(ORCID = "0000-0001-9140-9028")))
+             comment = c(ORCID = "0000-0001-9140-9028")),
+      person(given = "VP",
+             family = "Nagraj",
+             role = c("aut"),
+             comment = c(ORCID = "0000-0003-0060-566X")))
 Description: Demonstrates using an R package inside a Docker image.
 License: GPL (>= 3)
 Encoding: UTF-8
