@@ -1,4 +1,4 @@
 .Rproj.user
-docker/assets/*.tar.gz
 *.regions.txt
 *.revcomp.txt
+docker/src/rpdd.tar.gz
