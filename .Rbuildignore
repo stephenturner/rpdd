@@ -3,3 +3,4 @@
 ^LICENSE\.md$
 docker/
 build.sh
+^README\.Rmd$
