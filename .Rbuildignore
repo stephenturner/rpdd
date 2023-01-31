@@ -4,3 +4,7 @@
 docker/
 build.sh
 ^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
