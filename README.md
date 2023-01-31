@@ -54,9 +54,17 @@ runs a short pipeline. It first runs a shell script
 FASTA file and a BED file. The container will use
 [seqtk](https://github.com/lh3/seqtk) to pull out sequence in the FASTA
 file corresponding to the intervals in the BED file, and writes that to
-`<inputfastafilename>.regions.txt`. The container then uses R to read in
-that data, and reverse complements those sequences, writing them out to
+`<inputfastafilename>.regions.txt`. The container then runs an R script
+([docker/src/rpdd.R](docker/src/rpdd.R)) to read in that data, and
+reverse complements those sequences, writing them out to
 `<inputfastafilename>.revcomp.txt`.
+
+After going through the documentation below, study the following files
+in order to get a sense of what’s going on:
+
+1.  [docker/Dockerfile](docker/Dockerfile)
+2.  [docker/src/rpdd.sh](docker/src/rpdd.sh)
+3.  [docker/src/rpdd.R](docker/src/rpdd.R)
 
 ### Build
 
