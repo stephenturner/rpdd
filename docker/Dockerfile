@@ -19,4 +19,5 @@ RUN wget https://github.com/lh3/seqtk/archive/refs/tags/v${VERSION_SEQTK}.tar.gz
 ADD src /src
 RUN Rscript -e "install.packages('/src/rpdd.tar.gz', type='source', repos=NULL)"
 
+WORKDIR /data
 ENTRYPOINT ["/src/rpdd.sh"]
