@@ -1,2 +1,3 @@
 .Rproj.user
-docker/assets/*.tar.gz
+docker/src/rpdd.tar.gz
+docs

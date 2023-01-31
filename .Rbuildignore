@@ -3,3 +3,9 @@
 ^LICENSE\.md$
 docker/
 build.sh
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^CITATION\.cff$
