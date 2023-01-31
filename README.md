@@ -3,6 +3,11 @@
 
 # rpdd
 
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 The goal of rpdd is to demonstrate how to build an R package, build a
 Docker image that contains the built package, and how to run a pipeline
 inside the container using package functions.
