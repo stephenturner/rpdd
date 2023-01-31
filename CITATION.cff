@@ -1,0 +1,26 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.4.1
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "rpdd" in publications use:'
+type: software
+license: GPL-3.0-or-later
+title: 'rpdd: R package Docker Demo'
+version: 0.1.0
+abstract: Demonstrates using an R package inside a Docker image.
+authors:
+- family-names: Nagraj
+  given-names: VP
+  orcid: https://orcid.org/0000-0003-0060-566X
+- family-names: Turner
+  given-names: Stephen
+  email: vustephen@gmail.com
+  orcid: https://orcid.org/0000-0001-9140-9028
+url: https://stephenturner.github.io/rpdd/
+contact:
+- family-names: Turner
+  given-names: Stephen
+  email: vustephen@gmail.com
+  orcid: https://orcid.org/0000-0001-9140-9028
