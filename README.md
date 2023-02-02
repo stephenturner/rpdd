@@ -204,11 +204,12 @@ This allows you to use `docker_run <image> <args>` instead of
 
 # Further reading
 
-The StaPH-B Docker User Guide is a great place to start. Read all the
-chapters (drop-down in the upper right). Some of the documentation on
-command line flags to `docker run` came from this guide. Go read:
-**<https://staphb.org/docker-builds/>**.
-
-The Nust et al 2020 *PLoS Comp Bio* article, “Ten simple rules for
-writing Dockerfiles for reproducible data science” is also a great
-resource: **<https://doi.org/10.1371/journal.pcbi.1008316>**.
+- The StaPH-B Docker User Guide is a great place to start. Read all the
+  chapters (drop-down in the upper right). Some of the documentation on
+  command line flags to `docker run` came from this guide. Go read:
+  **<https://staphb.org/docker-builds/>**.
+- The Nust et al 2020 *PLoS Comp Bio* article, “Ten simple rules for
+  writing Dockerfiles for reproducible data science” is also a great
+  resource: **<https://doi.org/10.1371/journal.pcbi.1008316>**.
+- Docker’s “Best practices for writing Dockerfiles” guidelines:
+  **<https://docs.docker.com/develop/develop-images/dockerfile_best-practices/>**.
