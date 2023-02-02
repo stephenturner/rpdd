@@ -8,6 +8,15 @@
 [![R-CMD-check](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
+<!-- 
+Journal of Brief Ideas
+
+Docker containers with embedded R packages and domain-specific tools
+
+R packages are collections of functions, documentations, tests, sample data, and dependency declarations, which come together to promote modularity, reproducibility, and adherence to good coding practices. Containerization using technologies such as Docker allow for building a specific computing environment with all required dependencies, configuration files, and system libraries needed to run any computing process reproducibly and at scale. Further, Docker allows computing environments to be _specified in code_, such that the instructions for building the infrastructure itself can be specified in code. Many data science and bioinformatics tasks involve running some domain-specific tools for initial analysis, followed by postprocessing using R. The `rpdd` package provides a demonstration on how to create a Docker image with an embedded R package and domain-specific tools. The `rpdd` package comes with a build script, which first builds the R package, then builds a Docker image containing that package, along with domain-specific tools and dependencies. When the container is instantiated, it runs a script that uses domain-specific tools to preprocess input data, and runs functions from the R package to postprocess the output from the first step. Code and further documentation is available at <https://github.com/stephenturner/rpdd>.
+
+-->
+
 The goal of rpdd is to demonstrate how to build an R package, build a
 Docker image that contains the built package, and how to run a pipeline
 inside the container using package functions.
