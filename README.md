@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rpdd
+# rpdd <a href='https://github.com/stephenturner/rpdd'><img src='man/figures/logo.png' align="right" height="150" /></a>
 
 <!-- badges: start -->
 

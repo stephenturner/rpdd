@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# rpdd
+# rpdd <a href='https://github.com/stephenturner/rpdd'><img src='man/figures/logo.png' align="right" height="150" /></a>
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml)
