@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephenturner/rpdd/actions/workflows/R-CMD-check.yaml)
+[![JBI](https://img.shields.io/badge/Journal%20of%20Brief%20Ideas-10.5281%2Fzenodo.7662885-red.svg)](https://beta.briefideas.org/ideas/09ce69715f6bbf24b137859378015779)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7662885.svg)](https://doi.org/10.5281/zenodo.7662885)
 <!-- badges: end -->
 
