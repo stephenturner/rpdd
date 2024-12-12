@@ -9,3 +9,4 @@ build.sh
 ^pkgdown$
 ^\.github$
 ^CITATION\.cff$
+^man-lang$
