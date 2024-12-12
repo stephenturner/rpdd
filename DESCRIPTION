@@ -1,6 +1,6 @@
 Package: rpdd
 Title: R package Docker Demo
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     c(person(given = "Stephen",
              family = "Turner",
@@ -15,5 +15,5 @@ Description: Demonstrates using an R package inside a Docker image.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 URL: https://stephenturner.github.io/rpdd/

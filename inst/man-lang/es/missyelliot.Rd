@@ -2,18 +2,18 @@
 % Please edit documentation in R/utils.R
 \name{missyelliot}
 \alias{missyelliot}
-\title{Reverse complement}
+\title{El complemento inverso}
 \usage{
 missyelliot(x)
 }
 \arguments{
-\item{x}{A DNA sequence consisting of A, C, G, and T}
+\item{x}{Una secuencia de ADN compuesta por A, C, G y T.}
 }
 \value{
-A reverse-complemented DNA sequence
+Una secuencia de ADN complementaria inversa
 }
 \description{
-Take that flip it and reverse it
+Gira lo que quieras y vuelve a colocarlo
 }
 \examples{
 missyelliot("GATTACA")
